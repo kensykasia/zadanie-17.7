@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(45deg, #12c2e9, #c471ed, #DBDBDB);
+  background-repeat: no-repeat;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    min-height: 500px;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+#login {
+  margin-top: 90px;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+}
+
+#password {
+  position: absolute;
+  top: 130px;
+  left: 498px;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  top: 180px;
+  left: 575px;
+  height: 30px;
+  width: 120px;
+  margin-left: -35px;
+  background-color: #4f5051;
+}
+
+#login, #password, button {
+  border: none;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+img {
+  position: absolute;
+  width: 5%;
+  top: -2spx;
+  left: 568px;
+}
+
+.passed {
+  text-align: center;
+}
